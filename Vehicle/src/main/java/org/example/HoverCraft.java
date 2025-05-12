@@ -1,4 +1,4 @@
 package org.example;
 
-public class HoverCraft {
+public class HoverCraft extends Vehicle {
 }

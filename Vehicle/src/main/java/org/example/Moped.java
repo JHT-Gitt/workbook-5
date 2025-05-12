@@ -1,6 +1,6 @@
 package org.example;
 
-public class Moped {
+public class Moped extends Vehicle {
 
-    
+
 }
