@@ -15,7 +15,7 @@ public class Main {
         hover.setCargoCapacity(4);
         System.out.println("\nHovercraft");
         System.out.println("Color : " + hover.getColor());
-        System.out.println("Cargo Capacity : " + hover.getFuelCapacity());
+        System.out.println("Cargo Capacity : " + hover.getCargoCapacity());
 
         Car c = new Car();
         c.setColor("White");
