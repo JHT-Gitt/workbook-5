@@ -17,6 +17,16 @@ public class Main {
         System.out.println("Color : " + hover.getColor());
         System.out.println("Cargo Capacity : " + hover.getFuelCapacity());
 
+        Car c = new Car();
+        c.setColor("White");
+        c.setCargoCapacity(5);
+        c.setElectric(true);
+
+        System.out.println("\nMazda");
+        System.out.println("Color : " + c.getColor());
+        System.out.println("Cargo capacity : " + c.getCargoCapacity());
+        System.out.println("Fuel Type: " + c.isElectric());
+
 
 
 
