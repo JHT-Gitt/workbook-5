@@ -30,7 +30,7 @@ public class Main {
         a.add(new Vehicle("My ride","2023-05-07", 20_000,
                 "Honda", 2014, 50_000));
         a.add(new Vehicle("Ubaa", "2022-05-09", 20_000,
-                "Mazda", 2000, 120_000));
+                "Mazda", 2010, 120_000));
 
 
 
