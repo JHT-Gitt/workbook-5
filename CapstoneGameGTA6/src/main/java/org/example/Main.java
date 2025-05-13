@@ -26,6 +26,7 @@ public class Main {
             switch (choice){
                 case 1:
                     player.attack(monster);
+                    System.out.println("Monster hp : " + monster.hp);
                     if(monster.isAlive()){
                         monster.makeMove(player);
                     }else{
@@ -39,6 +40,16 @@ public class Main {
                     }else{
                         System.out.println(monster.name + " is dead");
                     }
+                    break;
+                case 4:
+                    player.hpSpinAttack(monster);
+                    if(monster.isAlive()){
+                        monster.makeMove(player);
+                    }else{
+                        System.out.println(monster.name + " is defeated");
+                    }
+                    break;
+                default:
                     break;
             }
 
